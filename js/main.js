@@ -10,7 +10,7 @@
   //gets the button
   let toggleButton= document.querySelector(".switch-text"),
     myheading = document.querySelector('h1'),
-    svgImg = document.querySelector("#badge");
+    allSVGs = document.querySelectorAll(".SVG"),
 
   //what is the change comment your stuff and describe what it is
   function changeText() {
@@ -22,8 +22,9 @@
   }
 
 
-//waiting for the click to change
+//waiting for the click to change things a user can to to make stuff happen.
 toggleButton.addEventListener("click", changeText);
-svgImg.addEventListener("mouseover", logSvg);
+//imgSVG.addEventListener("mouseover", logSvg);
+allSVGs.forEach(item => item.addEventListener("click", logSvg));
 
 })();
