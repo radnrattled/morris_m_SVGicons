@@ -9,3 +9,18 @@ padding: 10px 15px;
 .img-wrapper > img {
   width: 100%;
 }
+
+.black-background {
+  background-color: black;
+}
+
+/*.st0{fill:#333 !important;}*/
+
+/*#rGrain:hover, #lGrain:hover {
+  fill: red;
+}*/
+
+#beerGraphic:hover #lGrain {
+  fill: red; }
+#beerGraphic:hover #rGrain {
+  fill: red; }
