@@ -1,0 +1,11 @@
+
+.img-wrapper {
+display: inline-block;
+width: 38%;
+padding: 10px 15px;
+}
+/* > means anything that is the direct decendant*/
+
+.img-wrapper > img {
+  width: 100%;
+}
