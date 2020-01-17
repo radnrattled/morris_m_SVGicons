@@ -21,7 +21,6 @@
     console.log(this.id);
   }
 
-
 //waiting for the click to change things a user can to to make stuff happen.
 toggleButton.addEventListener("click", changeText);
 //imgSVG.addEventListener("mouseover", logSvg);
