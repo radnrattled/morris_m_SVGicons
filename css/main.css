@@ -23,6 +23,14 @@ justify-content: space-around;
 .img-wrapper > img {
   width: 100%;
 }
+.SVG {
+	width: 100px;
+	margin: 10px;
+}
 
-.icon:hover {
-  fill: red; }
+#pearl:hover {
+  fill: yellow; 
+}
+
+#scream:hover {
+  fill: orange; }
