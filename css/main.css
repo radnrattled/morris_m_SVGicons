@@ -28,8 +28,10 @@ justify-content: space-around;
 	margin: 10px;
 }
 
-.selected::after {
-  content: ' \2713';
+.selected:after {
+  content: 'Girl with the Pearl Earring';
+	color: salmon;
+
 }
 
 object {
