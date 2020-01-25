@@ -1,6 +1,9 @@
+
+
 .center{
 	display: flex;
 	justify-content: center;
+	margin-bottom: 100px;
 }
 
 .heading {
@@ -11,31 +14,40 @@
 	justify-content: center;
 }
 
-.img-wrapper {
+.mainp {
+	font-weight: lighter;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+.flex {
+margin-bottom: 100px;
 display: flex;
-flex-direction: row;
-width: 60%;
+width: 100%;
 padding: 10px 15px;
 justify-content: space-around;
 }
 /* > means anything that is the direct decendant*/
 
-.img-wrapper > img {
-  width: 100%;
-}
-.SVG {
-	width: 180px;
-	margin: 10px;
+.box {
+	color: #666
 }
 
-.selected::after {
-  content: ' \2713';
+.selected, .box::after {
+  border-style: dotted;
+  color: salmon;
 }
 
+.bigger {
+	width: 200px;
+}
 object {
-  width: 100px;
+  width: 150px;
 }
 
 .wrapper > * {
   pointer-events: none
 } /*block mouse events on elements with children*/
+
+.line {
+	border-bottom: solid 3px #DDD;
+}
